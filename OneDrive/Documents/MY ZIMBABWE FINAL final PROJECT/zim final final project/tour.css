@@ -1,0 +1,80 @@
+ /****************
+Tourist Guide
+****************/
+
+h1 {
+	margin: 10px 20px 0;
+	background-image: linear-gradient( red,yellow,green);
+}
+#left {
+	float: left;
+	clear: both;
+}
+
+#right {
+	float: right;
+
+}
+ #contain {
+	 clear: both;
+	margin: 10px 0 0 0;
+	color: dark-grey;
+	
+ }
+ #left a:hover,#right a:hover {
+ color: green;
+}
+
+#img {
+	margin: auto;
+	max-width: 80%;
+}
+.how {
+	list-style: square;
+	
+}
+
+.town{
+ color: green;
+ margin: 10px 10px 10px;
+ text-shadow: 0 1px 0 rgba(125,125,200,.8); 
+ background-image: linear-gradient( red,yellow,white,green);
+ 
+}
+
+.small{
+  color: brown;
+  margin: 5px 40px 10px;
+}
+
+.distance {
+	color: olive;
+	margin: 10px 60px 10px;
+}
+.city {
+margin: 0 20px 10px;
+}
+
+/****************
+Bookings
+****************/
+#zimbook a:hover {
+	color: green;
+	
+}
+#zimbook {
+	
+	margin: 10px 20px 10px;
+}
+
+h2 {
+	color: green;
+	
+}
+
+h3{
+	color: maroon;
+	
+}
+
+

@@ -3,10 +3,7 @@ html {
 }
 
 body {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 10px 20px;
   font-family: 'Open Sans', Roboto, sans-serif;
   font-style: normal;ss
   max-width: 100%;
@@ -16,10 +13,7 @@ body {
 #logo {
     display: block;
     max-width: 300px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 1px;
-    padding-right: 1px;
+    padding: 1px;
     margin: 0 auto;
     width: 100%;
 }
@@ -132,20 +126,6 @@ footer {
 /******************************
     OVERVIEW PAGE
 ******************************/
-
-
-
-/******************************
-    DROP DOWN MENU
-******************************/
-
-
-
-/******************************
-    DROP DOWN MENU
-******************************/
-
-
 #history_image {
 
 }
@@ -237,15 +217,11 @@ table {
   background-color: green;
   
 }#investor_body {
- margin-bottom: 15px;
- margin-top: 15px;
+ margin: 15px 0;
 }
 
 .container3 {
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 250px;
-    padding-bottom: 50px;
+    padding: 250px 150px 50px;
     text-align: justify;
 }
 

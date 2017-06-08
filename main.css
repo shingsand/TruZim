@@ -1,0 +1,283 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Open Sans', Roboto, sans-serif;
+  font-style: normal;ss
+  max-width: 100%;
+  background-image: url("zimvumba.jpg");
+}
+
+#logo {
+    display: block;
+    max-width: 300px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+  float: left;
+  margin: 10px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+  background-color: yellow;
+}
+
+h3 {
+    color: green;
+    text-align: center;
+}
+ 
+img {
+    width: 100%;
+    margin-top: 0;
+   
+}
+
+/*********************
+NEW NAVIGATION BAR
+********************/
+nav {
+  align-content: center;
+  overflow: hidden;
+  text-align: center;
+  padding: 10px 15px;
+  margin: auto;
+  width: auto;
+  background-color: green;
+}
+
+nav ul {
+  list-style: none;
+  margin-left: 45px;
+  padding: 0;
+}
+
+nav li {
+    float: left;
+    display:inline-block;
+}
+
+nav a {
+    float: left;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid red;
+    font: bold 1em Arial, Helvetica;   
+    background-color: red;
+    background-image: linear-gradient(#bb413b, red);
+    border-radius: 5px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.8); 
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3), 0 3px 0 rgba(0, 0, 0, 0.7), 0 2px 2px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5) inset; 
+}
+
+nav a:hover {
+    background-color: #bb413b;
+    background-image: linear-gradient(#831608, #bb413b);
+}
+
+nav a:active {
+    background: #bb413b;
+    position: relative;
+    top: 2px;    
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset; 
+}
+/******************
+FOOTER
+*****************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: green;
+  background-color: yellow;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+.social-icon {
+  display: inline;
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+}
+
+
+
+#div.container1 {
+    margin: 1px 1px 10px 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+/******************************
+    OVERVIEW PAGE
+******************************/
+
+
+
+/******************************
+    DROP DOWN MENU
+******************************/
+
+
+
+/******************************
+    DROP DOWN MENU
+******************************/
+
+
+#history_image {
+
+}
+
+
+.overview_paragraphs {
+    background-color: white;
+    font-style: normal;
+    color: green;
+    text-align: justify;
+    padding: 5px 60px;
+    margin: 5px 100px;
+
+}
+
+.overview_heading {
+    color: red;
+    font-weight: bold;
+}
+
+#vumba_caption {
+    text-align: center;
+    color: white;
+    background-color: grey;
+    margin-top: 0;
+    padding-top: 10px;
+    height: 50px;
+}
+
+.container3 {
+    padding-top: 20px;
+    padding-left: 100px;
+    background-color: white;
+}
+
+/**
+.investor_tables {
+    table-layout: auto;
+    margin: 1px 1px 10px 10px;
+    align-content: center;
+    width: 960px;
+    float: none;
+    border-spacing: 0.5rem;
+    border-collapse: collapse;
+}
+
+.table_header {
+    background-color: green;
+    color: yellow;
+
+}
+********/
+
+/* spacing */
+
+table {
+  table-layout: auto;
+  width: 80%;
+  border-collapse: collapse;
+  border: 3px solid green;
+  margin-left: 50px;
+}
+
+th, td {
+  padding: 20px;
+  text-align: left;
+}
+
+thead, tfoot {
+  background-color: red;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+thead th, tfoot th, tfoot td {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+  border: 3px solid green;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: yellow;
+}
+
+tbody tr:nth-child(even) {
+  background-color: lightgreen;
+}
+
+table {
+  background-color: green;
+  
+}#investor_body {
+ margin-bottom: 15px;
+ margin-top: 15px;
+}
+
+.container3 {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 250px;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+/******
+GALLERY
+*****/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+margin: 0;
+padding: 5%;
+font-size: 1em;
+color: white;
+background-color: grey;
+font-style: italic;
+text-decoration: none;
+text-align: center;
+}
+
+a{
+  text-decoration: none;
+}

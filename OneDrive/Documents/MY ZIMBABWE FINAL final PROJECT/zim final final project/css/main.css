@@ -1,3 +1,6 @@
+/********************
+MAIN ELEMENTS
+********************/
 html {
   height: 100%;
 }
@@ -162,23 +165,9 @@ footer {
     background-color: white;
 }
 
-/**
-.investor_tables {
-    table-layout: auto;
-    margin: 1px 1px 10px 10px;
-    align-content: center;
-    width: 960px;
-    float: none;
-    border-spacing: 0.5rem;
-    border-collapse: collapse;
-}
-
-.table_header {
-    background-color: green;
-    color: yellow;
-
-}
-********/
+/************
+INVESTOR GUIDE
+***********/
 
 /* spacing */
 

@@ -1,42 +1,40 @@
-
-/*********************
-MAIN ELEMENTS
-***********************/
-
 html {
   height: 100%;
-  width: 100%;
 }
 
 body {
+  margin: 10px 20px;
   font-family: 'Open Sans', Roboto, sans-serif;
-  font-style: normal;
+  font-style: normal;ss
   max-width: 100%;
-}
-
-img {
-    width: 100%;
-}
-
-
-/*********************
-HEADER
-***********************/
-
-header {
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  background-color: yellow;
+  background-image: url("zimvumba.jpg");
 }
 
 #logo {
     display: block;
     max-width: 300px;
-    padding-top: 5px;
+    padding: 1px;
+    margin: 0 auto;
     width: 100%;
-    margin: auto;
+}
+
+header {
+  float: left;
+  margin: 10px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+  background-color: yellow;
+}
+
+h3 {
+    color: green;
+    text-align: center;
+}
+ 
+img {
+    width: 100%;
+    margin-top: 0;
+   
 }
 
 /*********************
@@ -46,8 +44,8 @@ nav {
   align-content: center;
   overflow: hidden;
   text-align: center;
-  margin-top: 0;
-  padding-bottom: 12px;
+  padding: 10px 15px;
+  margin: auto;
   width: auto;
   background-color: green;
 }
@@ -61,8 +59,6 @@ nav ul {
 nav li {
     float: left;
     display:inline-block;
-    padding-top: 2px;
-    padding-bottom: 2px;
 }
 
 nav a {
@@ -71,7 +67,7 @@ nav a {
     margin: 0 10px;
     padding: 10px 20px;
     text-decoration: none;
-    color: white;
+    color: black;
     border: 1px solid red;
     font: bold 1em Arial, Helvetica;   
     background-color: red;
@@ -92,96 +88,105 @@ nav a:active {
     top: 2px;    
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset; 
 }
-
-/************************
-BODY ELEMENTS
-*************************/
-img {
-    width: 100%;
-    margin-top: 0;
-   
-}
-
-/*****************
+/******************
 FOOTER
 *****************/
 
 footer {
-  font-size: 1em;
+  font-size: 0.75em;
   text-align: center;
   clear: both;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 0.1px;
+  padding-top: 50px;
   color: green;
   background-color: yellow;
 }
 
-
-#facebook-icon {
-  height: 55px;
-  width: 55px;
-  padding-left: 10px;
-  padding-right: 10px;
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
 }
 
-#instagram-icon {
-  height: 45px;
-  width: 59px;
+.social-icon {
+  display: inline;
+  width: 50px;
+  height: 50px;
   margin: 0 5px;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
-#twitter-icon {
-  height: 40px;
-  width: 40px;
-  margin: 0 5px;
-  padding-left: 10px;
-  padding-right: 10px;
+
+
+#div.container1 {
+    margin: 1px 1px 10px 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
 }
 
 /******************************
     OVERVIEW PAGE
 ******************************/
+#history_image {
+
+}
 
 
 .overview_paragraphs {
     background-color: white;
-    color: grey;
+    font-style: normal;
+    color: green;
     text-align: justify;
-    padding: 0 80px 20px 80px;
+    padding: 5px 60px;
+    margin: 5px 100px;
+
 }
 
 .overview_heading {
-    color: green;
+    color: red;
     font-weight: bold;
 }
 
-.overview_caption {
+#vumba_caption {
     text-align: center;
     color: white;
     background-color: grey;
-    margin: 0;
+    margin-top: 0;
     padding-top: 10px;
-    padding-bottom: 10px;
+    height: 50px;
 }
 
-.overview_content {
-    margin-left: 30px;
-    margin-right: 30px;
+.container3 {
+    padding-top: 20px;
+    padding-left: 100px;
+    background-color: white;
 }
 
-/******************************
-    INVESTOR PAGE
-******************************/
+/**
+.investor_tables {
+    table-layout: auto;
+    margin: 1px 1px 10px 10px;
+    align-content: center;
+    width: 960px;
+    float: none;
+    border-spacing: 0.5rem;
+    border-collapse: collapse;
+}
+
+.table_header {
+    background-color: green;
+    color: yellow;
+
+}
+********/
+
+/* spacing */
 
 table {
+  table-layout: auto;
   width: 80%;
+  border-collapse: collapse;
   border: 3px solid green;
-  margin-left: 60px;
-  margin-right: 60px;
-  align-content: space-between;
+  margin-left: 50px;
 }
 
 th, td {
@@ -212,13 +217,17 @@ table {
   background-color: green;
   
 }#investor_body {
- margin-bottom: 15px;
- margin-top: 15px;
+ margin: 15px 0;
+}
 
-/******************************
-    GALLERY PAGE
-******************************/
+.container3 {
+    padding: 250px 150px 50px;
+    text-align: justify;
+}
 
+/******
+GALLERY
+*****/
 
 #gallery {
   margin: 0;
@@ -232,7 +241,7 @@ table {
   margin: 2.5%;
   background-color: #f5f5f5;
   color: #bdc3c7;
-} 
+}
 
 #gallery li a p {
 margin: 0;
@@ -248,46 +257,3 @@ text-align: center;
 a{
   text-decoration: none;
 }
-
-
-/******************
-CONTACT PAGE
-*****************/
-
-.contact-info {
-list-style: none;
-padding: 0;
-margin: 0;
-font-size: 0.9em;
-}
-
-.contact-info a{
-display: block;
-min-height: 20px;
-background-repeat: no-repeat;
-background-size: 20px 20px;
-padding: 0 0 0 30px;
-margin: 0 0 10px;
-}
-
-.contact-info li.phone a {
-background-image: url('../img/phone.png');
-}
-
-.contact-info li.mail a {
-background-image: url('../img/e-mail.png');
-}
-
-.contact-info li.twitter a {
-background-image: url('../img/twitter.png');
-}
-
-.contact-info li.instagram a {
-background-image: url('../img/instagram.png');
-}
-
-.contact_header {
-    color: green;
-    text-align: left;
-}
-
